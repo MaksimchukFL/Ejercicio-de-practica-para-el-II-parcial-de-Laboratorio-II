@@ -1,0 +1,29 @@
+Examen Parcial 2 - Práctica
+
+Desarrollar un programa utilizando código Java que permita la administración de clientes y sus estados de cuenta y su guardado en archivo para que se persista la información y cumpla los puntos enunciados a continuación:
+
+El cliente debe tener los siguientes campos:
+Activos (Lista de activos del cliente)
+El programa debe permitir cargar clientes y contemplar los casos en los que el usuario ingrese texto en donde debería ingresar sólo números.
+Una vez creado un cliente se debe poder cargar la lista de activos.
+Un activo contiene:
+Nombre
+Monto
+Los clientes son una clase que hereda de la clase Persona que contiene:
+Nombre
+Apellido
+DNI
+Dirección
+Todas las clases deberán implementar una interfaz Informe que contendrá un método que permita imprimir toda la información de la clase en un formato legible y claro para el usuario.  En el caso de la clase cliente también debe poder listar los activos.
+El programa debe guardar toda la información de la sesión en un archivo y poder abrir un archivo con la sesión guardada.
+El programa debe permitir buscar un cliente y mostrar todos sus datos y activos.
+El programa debe poder buscar y eliminar un cliente.
+El programa deberá contener un menú donde realizar la acciones:
+Crear Cliente
+Listar clientes (todos los datos, excepto los activos)
+Buscar por nombre y listar datos completos de un cliente (incluyendo los activos)
+Buscar y eliminar un cliente.
+Agregar Activos a un cliente
+
+*Guardar el archivo
+*Cargar el archivo
